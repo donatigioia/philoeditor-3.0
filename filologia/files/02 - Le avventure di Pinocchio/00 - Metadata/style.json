@@ -1,0 +1,56 @@
+{
+	"categories": {
+		"label": "Categorie correttorie",
+			"items": {
+				"toscanizzazione": {
+					"label": "Toscanizzazione",
+					"abbr":"Tosc.",
+					"className": "toscanizzazione",
+					"css": "background-color: #99ffff;"
+				},
+				"abbassamento": {
+					"label": "Abbassamento linguistico",
+					"abbr":"Abb.",
+					"className": "abbassamento",
+					"css": "background-color: #ffff99;"
+				},
+				"variante":{	
+					"label":"Varianti grafiche",
+					"abbr":"Var. gr.",
+					"className":"variante",
+					"css":"background-color: #CCFC65; "
+				},
+				"interpunzione":{
+					"label":"Varianti interpuntive",
+					"abbr":"Interp.",
+					"className":"interpunzione",
+					"css":"background-color: #E8D9BF;padding-left: 2px;padding-right: 2px;"
+				}
+			}
+	}, 
+		"methodologies": {
+			"label": "Metodologie correttorie",
+			"items": {
+				"ordine": {
+					"label": "Ordine delle parole",
+					"className": "ordine",
+					"css": "color: #FF00FF;"
+				},
+				"ripetizione": {
+					"label": "Ripetizione",
+					"className": "ripetizione",
+					"css": "color: #FF0000;"
+				},
+				"sistema": {
+					"label": "Correzioni sistemiche",
+					"className": "sistema",
+					"css": "color: #00BBBB"
+				},
+				"phrase": {
+					"label": "Correzioni fraseologica",
+					"className": "phrase",
+					"css": "color: #0000FF;text-decoration: underline;"
+				}
+			}
+		}
+}

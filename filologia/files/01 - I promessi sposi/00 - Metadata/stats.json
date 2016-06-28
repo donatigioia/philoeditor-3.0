@@ -1,0 +1,148 @@
+{
+    "01 - Capitolo 1": {
+        "3": {
+            "chars": {
+                "Toscanizzazione": 162,
+                "Abbassamento linguistico": 304,
+                "Varianti grafiche": 8,
+                "Varianti interpuntive": 2
+            },
+            "items": {
+                "Toscanizzazione": 18,
+                "Abbassamento linguistico": 26,
+                "Varianti grafiche": 1,
+                "Varianti interpuntive": 1
+            },
+            "total": 48245,
+            "unmodified": 47769,
+            "totalItems": 46
+        },
+        "32": {
+            "chars": {
+                "Toscanizzazione": 162,
+                "Abbassamento linguistico": 304,
+                "Varianti grafiche": 8,
+                "Varianti interpuntive": 2
+            },
+            "items": {
+                "Toscanizzazione": 18,
+                "Abbassamento linguistico": 26,
+                "Varianti grafiche": 1,
+                "Varianti interpuntive": 1
+            },
+            "total": 48245,
+            "unmodified": 47769,
+            "totalItems": 46
+        }
+    },
+    "02 - Capitolo 2": {
+        "6": {
+            "chars": {
+                "Toscanizzazione": 0,
+                "Abbassamento linguistico": 0,
+                "Varianti grafiche": 0,
+                "Varianti interpuntive": 0
+            },
+            "items": {
+                "Toscanizzazione": 0,
+                "Abbassamento linguistico": 0,
+                "Varianti grafiche": 0,
+                "Varianti interpuntive": 0
+            },
+            "total": 26308,
+            "unmodified": 26308,
+            "totalItems": 0
+        },
+        "7": {
+            "chars": {
+                "Toscanizzazione": 1119,
+                "Abbassamento linguistico": 1479,
+                "Varianti grafiche": 48,
+                "Varianti interpuntive": 232
+            },
+            "items": {
+                "Toscanizzazione": 142,
+                "Abbassamento linguistico": 152,
+                "Varianti grafiche": 7,
+                "Varianti interpuntive": 122
+            },
+            "total": 26326,
+            "unmodified": 23448,
+            "totalItems": 423
+        }
+    },
+    "08 - Capitolo 8": {
+        "22": {
+            "chars": {
+                "Toscanizzazione": 87,
+                "Abbassamento linguistico": 45,
+                "Varianti grafiche": 8,
+                "Varianti interpuntive": 9
+            },
+            "items": {
+                "Toscanizzazione": 9,
+                "Abbassamento linguistico": 5,
+                "Varianti grafiche": 1,
+                "Varianti interpuntive": 6
+            },
+            "total": 44429,
+            "unmodified": 44280,
+            "totalItems": 21
+        },
+        "21": {
+            "chars": {
+                "Toscanizzazione": 1491,
+                "Abbassamento linguistico": 1870,
+                "Varianti grafiche": 61,
+                "Varianti interpuntive": 325
+            },
+            "items": {
+                "Toscanizzazione": 170,
+                "Abbassamento linguistico": 176,
+                "Varianti grafiche": 11,
+                "Varianti interpuntive": 195
+            },
+            "total": 48995,
+            "unmodified": 45248,
+            "totalItems": 552
+        }
+    },
+    "03 - Capitolo 3": {
+        "10": {
+            "chars": {
+                "Toscanizzazione": 0,
+                "Abbassamento linguistico": 0,
+                "Varianti grafiche": 0,
+                "Varianti interpuntive": 0
+            },
+            "items": {
+                "Toscanizzazione": 0,
+                "Abbassamento linguistico": 0,
+                "Varianti grafiche": 0,
+                "Varianti interpuntive": 0
+            },
+            "total": 31601,
+            "unmodified": 31601,
+            "totalItems": 0
+        }
+    },
+    "12 - Capitolo 12": {
+        "31": {
+            "chars": {
+                "Toscanizzazione": 1477,
+                "Abbassamento linguistico": 1757,
+                "Varianti grafiche": 26,
+                "Varianti interpuntive": 43
+            },
+            "items": {
+                "Toscanizzazione": 149,
+                "Abbassamento linguistico": 109,
+                "Varianti grafiche": 3,
+                "Varianti interpuntive": 34
+            },
+            "total": 29353,
+            "unmodified": 26050,
+            "totalItems": 295
+        }
+    }
+}

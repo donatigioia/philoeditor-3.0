@@ -1,0 +1,296 @@
+[
+    {
+        "id": "1",
+        "order": "1827",
+        "label": "Capitolo1",
+        "path": "files\/01 - I promessi sposi\/01 - Capitolo 1\/1.txt",
+        "version": "1827"
+    },
+    {
+        "id": "2",
+        "order": "1840",
+        "label": "Capitolo1",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/01 - Capitolo 1\/2.txt"
+    },
+    {
+        "id": "3",
+        "order": "italia",
+        "authors": [
+            "italia"
+        ],
+        "label": "Capitolo1",
+        "versions": [
+            "1827",
+            "1840"
+        ],
+        "path": "files\/01 - I promessi sposi\/01 - Capitolo 1\/3.html"
+    },
+    {
+        "id": "4",
+        "order": "1827",
+        "label": "Capitolo2",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/02 - Capitolo 2\/4.txt"
+    },
+    {
+        "id": "5",
+        "order": "1840",
+        "label": "Capitolo2",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/02 - Capitolo 2\/5.txt"
+    },
+    {
+        "id": "6",
+        "order": "italia",
+        "label": "Capitolo2",
+        "authors": [
+            "italia"
+        ],
+        "versions": [
+            "1827",
+            "1840"
+        ],
+        "path": "files\/01 - I promessi sposi\/02 - Capitolo 2\/6.html"
+    },
+    {
+        "id": "7",
+        "order": "bonsi",
+        "label": "Capitolo2",
+        "authors": [
+            "bonsi"
+        ],
+        "versions": [
+            "1827",
+            "1840"
+        ],
+        "path": "files\/01 - I promessi sposi\/02 - Capitolo 2\/7.html"
+    },
+    {
+        "id": "8",
+        "order": "1827",
+        "label": "Capitolo3",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/03 - Capitolo 3\/8.txt"
+    },
+    {
+        "id": "9",
+        "order": "1840",
+        "label": "Capitolo3",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/03 - Capitolo 3\/9.txt"
+    },
+    {
+        "id": "10",
+        "order": "italia",
+        "label": "Capitolo3",
+        "authors": [
+            "italia"
+        ],
+        "versions": [
+            "1827",
+            "1840"
+        ],
+        "path": "files\/01 - I promessi sposi\/03 - Capitolo 3\/10.html"
+    },
+    {
+        "id": "11",
+        "order": "1827",
+        "label": "Capitolo4",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/04 - Capitolo 4\/11.txt"
+    },
+    {
+        "id": "12",
+        "order": "1840",
+        "label": "Capitolo4",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/04 - Capitolo 4\/12.txt"
+    },
+    {
+        "id": "13",
+        "order": "1827",
+        "label": "Capitolo5",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/05 - Capitolo 5\/13.txt"
+    },
+    {
+        "id": "14",
+        "order": "1840",
+        "label": "Capitolo5",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/05 - Capitolo 5\/14.txt"
+    },
+    {
+        "id": "15",
+        "order": "1827",
+        "label": "Capitolo6",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/06 - Capitolo 6\/15.txt"
+    },
+    {
+        "id": "16",
+        "order": "1840",
+        "label": "Capitolo6",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/06 - Capitolo 6\/16.txt"
+    },
+    {
+        "id": "17",
+        "order": "1827",
+        "label": "Capitolo7",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/07 - Capitolo 7\/17.txt"
+    },
+    {
+        "id": "18",
+        "order": "1840",
+        "label": "Capitolo7",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/07 - Capitolo 7\/18.txt"
+    },
+    {
+        "id": "19",
+        "order": "1827",
+        "label": "Capitolo8",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/08 - Capitolo 8\/19.txt"
+    },
+    {
+        "id": "20",
+        "order": "1840",
+        "label": "Capitolo8",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/08 - Capitolo 8\/20.txt"
+    },
+    {
+        "id": "21",
+        "order": "fplacidi",
+        "label": "Capitolo8",
+        "versions": [
+            "1827",
+            "1840"
+        ],
+        "authors": [
+            "fplacidi"
+        ],
+        "path": "files\/01 - I promessi sposi\/08 - Capitolo 8\/21.html"
+    },
+    {
+        "id": "22",
+        "order": "italia",
+        "label": "Capitolo8",
+        "authors": [
+            "italia"
+        ],
+        "path": "files\/01 - I promessi sposi\/08 - Capitolo 8\/22.html",
+        "versions": [
+            "1827",
+            "1840"
+        ]
+    },
+    {
+        "id": "23",
+        "order": "1827",
+        "label": "Capitolo9",
+        "path": "files\/01 - I promessi sposi\/09 - Capitolo 9\/23.txt",
+        "version": "1827"
+    },
+    {
+        "id": "24",
+        "order": "1840",
+        "label": "Capitolo9",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/09 - Capitolo 9\/24.txt"
+    },
+    {
+        "id": "25",
+        "order": "1827",
+        "label": "Capitolo10",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/10 - Capitolo 10\/25.txt"
+    },
+    {
+        "id": "26",
+        "order": "1840",
+        "label": "Capitolo10",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/10 - Capitolo 10\/26.txt"
+    },
+    {
+        "id": "27",
+        "order": "1827",
+        "label": "Capitolo11",
+        "path": "files\/01 - I promessi sposi\/11 - Capitolo 11\/27.txt",
+        "version": "1827"
+    },
+    {
+        "id": "28",
+        "order": "1840",
+        "label": "Capitolo11",
+        "path": "files\/01 - I promessi sposi\/11 - Capitolo 11\/28.txt",
+        "version": "1840"
+    },
+    {
+        "id": "29",
+        "order": "1827",
+        "label": "Capitolo12",
+        "version": "1827",
+        "path": "files\/01 - I promessi sposi\/12 - Capitolo 12\/29.txt"
+    },
+    {
+        "id": "30",
+        "order": "1840",
+        "label": "Capitolo12",
+        "version": "1840",
+        "path": "files\/01 - I promessi sposi\/12 - Capitolo 12\/30.txt"
+    },
+    {
+        "id": "31",
+        "order": "erbosi",
+        "label": "Capitolo12",
+        "authors": [
+            "erbosi"
+        ],
+        "versions": [
+            "1827",
+            "1840"
+        ],
+        "path": "files\/01 - I promessi sposi\/12 - Capitolo 12\/31.html"
+    },
+    {
+        "id": 32,
+        "order": null,
+        "label": "Capitolo1",
+        "authors": [
+            "gioia"
+        ],
+        "path": "files\/01 - I promessi sposi\/01 - Capitolo 1\/32.html",
+        "versions": [
+            "1827",
+            "1840"
+        ],
+        "tei": {
+            "encodingDesc": "-",
+            "revisionDesc": [
+                {
+                    "when": "2016-05-27",
+                    "who": "#gioia"
+                }
+            ],
+            "publicationStmt": {
+                "publisher": "Gioia",
+                "pubPlace": "Bologna",
+                "date": "2016",
+                "license": "CC-BY"
+            },
+            "editionStmts": [
+                {
+                    "resp": "codifica categorie cap. 1",
+                    "name": "Gioia Donati",
+                    "id": "gioia"
+                }
+            ]
+        }
+    }
+]

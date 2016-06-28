@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "order": "1",
+        "label": "Capitolo 1",
+        "path": "files\/02 - Le avventure di Pinocchio\/01 - Capitolo 1\/1.txt",
+        "version": "Rivista"
+    },
+    {
+        "id": "2",
+        "order": "2",
+        "label": "Capitolo 1",
+        "path": "files\/02 - Le avventure di Pinocchio\/01 - Capitolo 1\/2.txt",
+        "version": "Volume"
+    },
+    {
+        "id": "3",
+        "order": "1",
+        "label": "Capitolo 2",
+        "path": "files\/02 - Le avventure di Pinocchio\/02 - Capitolo 2\/3.txt",
+        "version": "Rivista"
+    },
+    {
+        "id": "4",
+        "order": "2",
+        "label": "Capitolo 2",
+        "path": "files\/02 - Le avventure di Pinocchio\/02 - Capitolo 2\/4.txt",
+        "version": "Volume"
+    },
+    {
+        "id": "5",
+        "order": "1",
+        "label": "Capitolo 3",
+        "path": "files\/02 - Le avventure di Pinocchio\/03 - Capitolo 3\/5.txt",
+        "version": "Rivista"
+    },
+    {
+        "id": "6",
+        "order": "2",
+        "label": "Capitolo 3",
+        "path": "files\/02 - Le avventure di Pinocchio\/03 - Capitolo 3\/6.txt",
+        "version": "Volume"
+    }
+]
