@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Fabio Vitali (author) -- fabio [at] cs.unibo.it
+    Paola Italia (inspirer) -- paola.italia [at] uniroma1.it
+
+# THANKS
+
+    Angelo di Iorio, Paola Bonsi, Francesca Tomasi
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    wikEd diff (https://en.wikipedia.org/wiki/User:Cacycle/diff)
+	

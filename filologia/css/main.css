@@ -1,0 +1,333 @@
+html, body {
+	height: 100% ;
+	max-height: 100% ;
+}
+
+/*Mia aggiunta*/
+
+/*bootstrap 2*/
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+/*.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}*/
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+/*fine bootstrap 2*/
+#coownerForm > *{
+	margin:3px;
+}
+
+#errorShare{
+	display:none;
+	color:red;
+}
+
+#errorSignUp{
+	display:none;
+	color:red;
+}
+#errorLogin{
+	display:none;
+	color:red;
+}
+#errorPwd{
+	display:none;
+	color:red;
+}
+#errorPwd{
+
+}
+#notifica{
+	display:none;
+	position:fixed;
+	z-index:3;
+	top:10%;
+}
+#errore{
+	display:none;
+	position:fixed;
+	z-index:3;
+	top:10%;
+}
+#login .btn-info{
+	float:left;
+}
+
+
+#notifica{
+	display:none;
+	position:fixed;
+	z-index:3;
+	top:10%;
+}
+#login .btn-info{
+	float:left;
+}
+
+/*fine*/
+
+.right {
+	max-height: 90% ;
+	margin-top: 60px; 
+	overflow: scroll; 
+	overflow-x: hidden; 
+}
+		
+.left {
+	max-height: 90% ;
+	margin-top: 60px; 
+	overflow: scroll; 
+	overflow-x: hidden; 
+}
+
+#file p {
+	line-height: 200%;
+	font-size: 120%; 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  margin-top: 10px;  
+  width: 100%;
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+.canSave {
+	color: #66FF33; 
+}
+.cannotSave {
+	color: #FF0000; 
+}
+.noDoc {
+	color: auto; 
+}
+.editing {
+/*	display: inline-table !important; */
+	min-width: 150px; 
+}
+
+.btn-white {
+	background-color: #ffffff; 
+	border: 1pt solid #A0A0A0;
+	line-height: 20px; 
+}
+.vert .replace {
+	display: inline-table;
+	vertical-align: text-bottom;
+	margin-top: -2em;
+}
+.vert .replace .newVersion {
+	vertical-align: bottom;
+	text-align: center;
+	line-height: 140%;
+}
+
+.vert .replace .newVersion * {
+	display: inline;
+	vertical-align: inherit;
+	line-height: inherit;
+}
+
+.vert .replace .oldVersion {
+	display: table-row;
+	text-align: center;
+	line-height: 140%;
+}
+
+.oriz .replace, .oriz .insert, .oriz .delete {
+	border-bottom: 1px dotted #A00000; 
+/*	display: inline-table; */
+}
+.oriz .newVersion {
+	background-color: #F0F0F0; 
+/*	display: table-cell; */
+}
+
+.oriz .oldVersion {
+	font-style: italic; 
+/*	display: table-cell; */
+}
+.oriz .oldVersion::before {
+	content: "<[" ;
+	color: #B0B0B0; 
+}
+
+.oriz .oldVersion::after {
+	content: "]" ;
+	color: #B0B0B0; 
+}
+
+.vert .reduce {
+	font-size: 80%;
+	position: relative;
+	top: 0.4em;
+}
+
+.insert.visibile span, .insert.visibile span {
+	font-size: 100% !important; 
+	font-weight: bold;  
+	color: blue; 
+}
+
+.delete.visibile  span, .delete.visibile  span {
+	font-weight: bold;  
+	color: blue; 
+	text-decoration: line-through;
+}
+
+.insert, .delete {
+	display:inline;
+}
+/*
+.insert .oldVersion {
+	display:none !important;
+}
+*/
+.insert .newVersion {
+	display:inline;
+}
+/*
+.delete .newVersion {
+	display:none !important;
+}
+*/
+.delete .oldVersion {
+	display: inline; 
+}
+/* BIBI
+.met_6.visibile {
+	color: #0000FF;
+	text-decoration: underline; 
+}
+
+.met_5.visibile {
+	color: #00BBBB;
+}
+.met_3.visibile span {
+	color: #FF00FF;
+}
+.met_4.visibile span {
+	color: #FF0000;
+}
+
+.cat_2.visibile2 span, button.cat_2.visibile2 {
+	background-color: #ffff99;
+}
+.cat_1.visibile2 span, button.cat_1.visibile2 {
+	background-color: #99ffff;
+}
+.cat_3.visibile2 span, button.cat_3.visibile2 {
+	background-color: #ccffaa;
+}
+/*.cat_3.visibile span, button.cat_3.visibile {
+	background-color: #dd5050;
+	color: white; 
+}
+
+.cat_3 .newVersion, button.cat_3 {
+	font-style: italic; 
+}
+.cat_4.visibile2 span, button.cat_4.visibile2{
+	background-color: #E8D9BF;
+	padding-left: 2px;
+	padding-right: 2px;
+}*/
+
+.spaceOver {
+	margin-top: 10px; 
+}
+
+#push {
+	height: 40px; 
+}
+
+.button button {
+	padding-top: 1px; 
+	padding-bottom: 2px; 
+}
+.button {
+	padding-bottom: 1px; 
+}
+
+.addCategoria, .addMetodologia {
+	width: 80%;
+}
+
+.btn {
+	padding: 12px 12px;
+}
+
+.hide {
+	display: none !important; 
+}
+
+.leaf>a {
+	font-size: 11px;
+	padding: 2px 15px !important;
+	text-transform: none;
+	font-weight: normal ; 
+}
+
+.nav {
+	line-height: initial !important;  
+}
+.tree-toggle {
+	cursor: pointer;
+}
+
+label {
+	margin: 2px; 
+}
+
+.tree {
+	padding: 0px 10px;
+}
+
+#splitExample {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.small {
+	height: 80%;
+	width: 80%; 
+}
