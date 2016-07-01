@@ -93,7 +93,7 @@ function p($s) {
 
 
 $dir = '../files' ; 
-$dirContent = deepDir($dir, $convert,1,"") ;  passi NULL come funzione viene usata semplicemente getFileName.)
+$dirContent = deepDir($dir, $convert,1,"") ;
 $return = stripslashes(json_encode($dirContent)) ; 
 echo $return ;
 
