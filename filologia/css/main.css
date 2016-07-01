@@ -26,7 +26,7 @@ html, body {
 	max-height: 100% ;
 }
 
-/*Mia aggiunta*/
+
 
 /*bootstrap 2*/
 .dropdown-submenu {
@@ -44,19 +44,7 @@ html, body {
 .dropdown-submenu:hover>.dropdown-menu {
     display:block;
 }
-/*.dropdown-submenu>a:after {
-    display:block;
-    content:" ";
-    float:right;
-    width:0;
-    height:0;
-    border-color:transparent;
-    border-style:solid;
-    border-width:5px 0 5px 5px;
-    border-left-color:#cccccc;
-    margin-top:5px;
-    margin-right:-10px;
-}*/
+
 .dropdown-submenu:hover>a:after {
     border-left-color:#ffffff;
 }
@@ -240,60 +228,14 @@ html, body {
 .insert, .delete {
 	display:inline;
 }
-/*
-.insert .oldVersion {
-	display:none !important;
-}
-*/
+
 .insert .newVersion {
 	display:inline;
 }
-/*
-.delete .newVersion {
-	display:none !important;
-}
-*/
+
 .delete .oldVersion {
 	display: inline; 
 }
-/* BIBI
-.met_6.visibile {
-	color: #0000FF;
-	text-decoration: underline; 
-}
-
-.met_5.visibile {
-	color: #00BBBB;
-}
-.met_3.visibile span {
-	color: #FF00FF;
-}
-.met_4.visibile span {
-	color: #FF0000;
-}
-
-.cat_2.visibile2 span, button.cat_2.visibile2 {
-	background-color: #ffff99;
-}
-.cat_1.visibile2 span, button.cat_1.visibile2 {
-	background-color: #99ffff;
-}
-.cat_3.visibile2 span, button.cat_3.visibile2 {
-	background-color: #ccffaa;
-}
-/*.cat_3.visibile span, button.cat_3.visibile {
-	background-color: #dd5050;
-	color: white; 
-}
-
-.cat_3 .newVersion, button.cat_3 {
-	font-style: italic; 
-}
-.cat_4.visibile2 span, button.cat_4.visibile2{
-	background-color: #E8D9BF;
-	padding-left: 2px;
-	padding-right: 2px;
-}*/
 
 .spaceOver {
 	margin-top: 10px; 
