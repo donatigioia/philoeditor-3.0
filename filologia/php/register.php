@@ -53,9 +53,11 @@ else{
 	}
 	else	
 		$response["result"]="ok";
-	
+		
+	/* Per attivare servizio di notifica registrazione: scommentare e sostituire il parametro e-mail della funzione mail con indirizzo email dell'Amministratore
 	$msg="Nuova registrazione su philoeditor da parte di ".$nome." ".$cognome." "."con nome utente"." ".$user_name." .";
-	mail("donatigioia@gmail.com","Philoeditor:nuova registrazione",$msg);
+	mail("e-mail","Philoeditor:nuova registrazione",$msg);
+	*/
 }
 
 	echo json_encode($response);
