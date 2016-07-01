@@ -1,5 +1,7 @@
+
+<?php
 /*	
- File: changePwd.js
+ File: changePwd.php
  Author: Gioia Donati, Fabio Vitali, Angelo di Iorio
  Last change on: 1/07/16
 
@@ -20,7 +22,7 @@
     CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
  */
-<?php
+ 
 $file = '../data/hidden/users.json' ;
 $data=json_decode(file_get_contents("php://input")); 
 $users = json_decode(file_get_contents($file),true) ; 
