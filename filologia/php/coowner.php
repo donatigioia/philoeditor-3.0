@@ -22,9 +22,6 @@
     CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
  */
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
 
 $file = '../data/hidden/users.json' ;
 $users = json_decode(file_get_contents($file),true) ;
@@ -40,12 +37,12 @@ $doc=$data->document;
 $newOwner=$data->coowner;
 $id=$data->document->id;
 $owner=check_owner($doc->authors,$user);
-if($owner){//sono un autore del documento
+if($owner){
 	$coowner=check_owner($doc->authors,$newOwner);
-	if(!$coowner){//coownern non è già autore del documento
-		//controllo che coowner sia un utente registrato
+	if(!$coowner){
+		
 		$regUser=check_user($users,$newOwner);
-		if(!$regUser){//utente registrato
+		if(!$regUser){
 			$addOwner=search_key($infoDoc,'id',$doc->id);	
 			foreach($infoDoc as $key=>$value){
 				if($value['id'] == $id){
@@ -81,7 +78,7 @@ function check_owner($d,$u) {
 
 function check_user($users, $user_name) {
 	$user_match = search_key($users, 'name', $user_name) ; 
-	if (count($user_match) != 1) {//non c'è utente
+	if (count($user_match) != 1) {
 		return 1;
 	} else {
 		return null ;
