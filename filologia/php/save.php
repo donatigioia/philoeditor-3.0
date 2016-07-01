@@ -1,7 +1,26 @@
 <?PHP
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+/*	
+ File: save.php
+ Author: Gioia Donati, Fabio Vitali, Angelo di Iorio
+ Last change on: 1/07/16
+
+
+
+ Copyright (c) 2016, [Nome Cognome], DASPLab, Department of Computer Science, University of Bologna
+
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted, provided that the above
+    copyright notice and this permission notice appear in all copies.
+
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+    SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+    OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+    CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+ */
 session_start() ;
 $docContent = $_POST['data'] ;
 $docData = $_POST['document'] ;
@@ -15,12 +34,12 @@ $base ="../files" ;
 $statfile=$_POST['path']."/00 - Metadata/stats.json";
 $maxId=count($infoDoc)+1;
 if($saveType == "save"){
-	//$oldPath=$docData['path'];
+
 	$newPath = preg_split('/\//',$docData['path']) ;
 	$id=explode('.',$newPath[3]);
 	array_pop($newPath);
 	$newPath[]=$id[0];
-	if (isset ($docData['authors'])&& in_array($user['name'],$docData['authors'])) {//c'è un auotore e l'autore sono io o sono un amministratore
+	if (isset ($docData['authors'])&& in_array($user['name'],$docData['authors'])) {
 		foreach($infoDoc as $key=>$val){
 			if($val['id'] == $id[0]){
 				$infoDoc[$key]["tei"]=$docData['tei'];
@@ -62,7 +81,7 @@ else {//salva come nuovo
 if ($ok) {
 	$stats = json_decode(file_get_contents($statfile),true );
 	$x = &$stats ;
-	for ($i = 2; $i< count($newPath); $i++) {//l'indice parte da due in modo da saltare il nome dell'opera
+	for ($i = 2; $i< count($newPath); $i++) {
 		if (!isset($x[$newPath[$i]])) {
 			$x[$newPath[$i]] = array() ;
 		}
