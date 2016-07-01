@@ -46,7 +46,7 @@ else{
 	$users[]=array("name" => $user_name, "pwd" => $pwd,"showAs"=>$nome." ".$cognome,"gender"=>$sesso);
 
 
-	var $ok=file_put_contents($file, json_encode($users,JSON_PRETTY_PRINT),true);		
+	$ok=file_put_contents($file, json_encode($users,JSON_PRETTY_PRINT),true);		
 	if(!$ok){
 		http_response_code(501);
 		exit;
