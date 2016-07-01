@@ -1,7 +1,23 @@
 <!doctype html>
+<!--File: index.html
+    Author: Gioia Donati, Fabio Vitali, Angelo di Iorio
+    Last change on: date
+  
+    Copyright (c) 2016, [Nome Cognome], DASPLab, Department of Computer Science, University of Bologna
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted, provided that the above
+    copyright notice and this permission notice appear in all copies.
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+    SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+    OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+    CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. -->
+    <!-- Read this: www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html -->
 <!--[if lt IE 7]>	  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>		 <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>		 <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if IE 8]>		 <html class="no-js lt-ie9" lang=""> <![endif]--> 
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
@@ -57,14 +73,11 @@
 					<li class="dropdown">
 						<a href="#" id="logoutMenu" onclick=ctrl() class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="userNameShow">Nessun utente</span> <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-						<!-- <li id="save"   ><a href="#" id="saveOpt" onclick=submenu() class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Salva il documento...</a>-->
-						<!-- mia aggiunta -->
 							<li id="save"   ><a href="#"  >Salva..</a></li>
 							<li id="newSave"><a href="#">Salva come nuovo..</a></li>
 					
 							<li data-toggle="modal" id="share" ><a href="#">Condividi documento...</a></li>	
 							<li data-toggle="modal" data-target="#account"><a  href="#">Account ...</a></li>
-						<!--fine -->
 							<li><a href="#" id='logoutButton'>Logout...</a></li>
 						</ul>
 					</li>
@@ -74,10 +87,8 @@
 		</div>
 
 		<div class="container body">
-			<!--mia aggiunga -->
 			<div class="alert alert-danger" role="alert" id="errore"></div> 
 			<div class="alert alert-success" role="alert" id="notifica"></div> 
-			<!--fine-->
 			<div class="row clearfix">
 				<div class="col-md-3 left">
 					<div class="panel-group" id="accordion">
@@ -122,30 +133,9 @@
 											<div class="checkbox"><label>
 												<input type="checkbox" class="viewStyle" data-style='delete'><span class="delete visibile"><span>Cancellazione</span></span></label></div>
 											<div id="viewMetodologie">
-											<!--
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle" data-style='ordine'><span class="ordine visibile"><span>Ordine delle parole</span></span></label></div>
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle" data-style='ripetizione'><span class="ripetizione visibile"><span>Ripetizioni</span></span></label></div>
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle2" data-style='sistema'><span class="sistema visibile2"><span>Correzioni sistemiche</span></span></label></div>
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle2" data-style='phrase'><span class="phrase visibile2"><span>Correzione fraseologica</span></span></label></div>
-											-->
 											</div>
 											<h4>Categorie correttorie</h4>
 											<div id="viewCategorie">
-											<!--
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle" data-style='abbassamento'><span class="abbassamento visibile"><span>Abbassamento linguistico</span></span></label></div>
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle" data-style='toscanizzazione'><span class="toscanizzazione visibile"><span>Toscanizzazione</span></span></label></div>
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle" data-style='variante'><span class="variante visibile"><span>Varianti grafiche</span></span></label></div>
-											<div class="checkbox"><label>
-												<input type="checkbox" class="viewStyle" data-style='interpunzione'><span class="interpunzione visibile"><span>Varianti interpuntive</span></span></label></div>
-											<a href='#' onClick='toggleAll()'>Mostra/Nascondi tutti gli stili</a>
-											-->
 											</div>
 									</div>
 									<div class="tab-pane border border-notop" id="edit">
@@ -154,36 +144,15 @@
 												<button type="button" class="btn btn-default" id="split">Separa</button>						
 											</div>							
 											<h4>Metodologie correttorie</h4>
-												
-											 <!--mia aggiunta-->
 											<div class="button">
 												<button class="btn btn-white addMetodologia insert visibile" data-style='insert'><span>Inserimento</span></button></div>
-											<!--fine-->
 											<div class="button">
 												<button class="btn btn-white addMetodologia delete visibile" data-style='delete'><span>Cancellazione</span></button></div>
 											<div id="editMetodologie">
-											<!--
-											<div class="button">
-												<button class="btn btn-white addStyle visibile ordine" data-style='ordine'><span>Ordine delle parole</span></button></div>
-											<div class="button">
-												<button class="btn btn-white addStyle ripetizione visibile" data-style='ripetizione'><span>Ripetizioni</span></button></div>
-											<div class="button">
-												<button class="btn btn-white addStyle2 sistema visibile2" data-style='sistema'><span>Correzioni sistemiche</span></button></div>
-											<div class="button">
-												<button class="btn btn-white addStyle2 phrase visibile2" data-style='phrase'><span>Correzione fraseologica</span></button></div>
-											-->
+										
 											</div>
 											<h4>Categorie correttorie</h4>
 											<div id="editCategorie">
-											<!--
-											<div class="button">
-												<button class="btn btn-white addStyle abbassamento visibile" data-style='abbassamento'><span>Abbassamento linguistico</span></button></div>
-											<div class="button">
-												<button class="btn btn-white addStyle toscanizzazione visibile" data-style='toscanizzazione'><span>Toscanizzazione</span></button></div>
-											<div class="button">
-												<button class="btn btn-white addStyle variante visibile" data-style='variante'><span>Varianti grafiche</span></button></div>
-											<div class="button"> -->
-										<!--  mia modifica -->
 											</div>
 											<a href='#' onClick='toggleAll()'>Mostra/Nascondi tutti gli stili</a>	
 									</div>
@@ -432,7 +401,7 @@
 </div>
 </div>
 </div>
-<!-- mia aggiunta form tei -->
+<!-- form tei -->
 <div class="modal fade" id="metadata" tabindex="-1" role="dialog" aria-labelledby="metadata" aria-hidden="true">
 <form id="metaForm">
         <div class="modal-dialog">
@@ -469,8 +438,7 @@
         </div>
 </form>
 </div>
-<!-- fine aggiunta -->
-<!--mia modifica -->
+
 <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
 <form class="form-signin" id="loginForm">
 	<div class="modal-dialog">
@@ -497,32 +465,8 @@
 	</div>
 </form>
 </div>
-<!--fine-->
-<!--
-v class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
-<form class="form-signin" id="loginForm">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			<h4 class="modal-title" id="myModalLabel">Login</h4>
-			</div>
-			<div class="modal-body">
-					<label for="inputEmail" class="sr-only">Utente</label>
-						<input name="user" id="user" class="form-control" placeholder="Utente" required autofocus>
-					<label for="pwd" class="sr-only">Password</label>
-						<input type="password" id="pwd" name="pwd" class="form-control" placeholder="Password" required>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn" data-dismiss="modal">Annulla</button>
-				<button class="btn btn-primary" type="submit"> Login </button>
-			</div>
-		</div>
-	</div>
-</form>
-</div>
--->
-<!-- mia aggiunta sign Up-->
+
+<!-- sign Up-->
 <div class="modal fade" id="signUpForm" tabindex="-1" role="dialog" aria-labelledby="signUpnLabel" aria-hidden="true">
 	<form class="form-signUp " id="formReg">
 		<div class="modal-dialog">
@@ -566,8 +510,8 @@ v class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="Log
 		</div>
 	</form>
 </div>
-<!-- fine -->
-<!-- mia aggiunta CAMBIO PASSWORD -->
+
+<!-- Cambio password -->
 <div class="modal fade" id="account" tabindex="-1" role="dialog" aria-labelledby="changePwdLabel" aria-hidden="true">
 	<form class="form-pwd" id="pwdForm">
 		<div class="modal-dialog">
@@ -599,8 +543,8 @@ v class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="Log
 		</div>
 	</form>
 </div>
-<!-- fine -->
-<!-- mia aggiunta condividi  -->
+
+<!--  condividi  -->
 <div class="modal fade" id="coowner" tabindex="-1" role="dialog" aria-labelledby="share" aria-hidden="true">
 	<form id="shareForm">
 		<div class="modal-dialog">
@@ -624,7 +568,7 @@ v class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="Log
 		</div>
 	</form>
 </div>
-<!--fine condividi-->
+
 		<script id="theTable" type="text/template">
 			<h3 align="center">Statistiche complessive</h3>
 			<table class="table table-bordered table-hover"  style="width: 500px; height: 400px;">
