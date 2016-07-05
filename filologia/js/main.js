@@ -594,6 +594,7 @@ function coowner(){
 	formCoowner.coowner=$("#coownerName").val();
 	formCoowner.owner=current.user;
 	formCoowner.document=current.document;
+	formCoowner.path=current.opera.path;
 	if(formCoowner.owner){
 		var d=JSON.stringify(formCoowner);
 		$.ajax({
