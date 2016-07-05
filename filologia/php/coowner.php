@@ -23,11 +23,13 @@
 
  */
 
-$file = '../data/hidden/users.json' ;
-$users = json_decode(file_get_contents($file),true) ;
+$data=json_decode(file_get_contents("php://input"));
+$fileDoc='../data/hidden/users.json';
+$users = json_decode(file_get_contents($fileDoc),true) ;
 
-$fileDoc='../data/infoDoc.json';
-$infoDoc = json_decode(file_get_contents($fileDoc),true) ;
+$fileDoc=$data->path."/00 - Metadata/infoDoc.json";
+$res=file_get_contents($fileDoc);
+$infoDoc = json_decode($res,true) ;
 
 $response=array();
 
